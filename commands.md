@@ -95,5 +95,5 @@ User
 |!op | | links to the OverPlayed list |
 |!rules | | links to the rules |
 |!thor | | users get moved to position 1 in the waitlist if they're worthy of Thor's hammer. |
-|!website | | links to the room's website |
+|!website | | links to the website |
 
