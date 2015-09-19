@@ -29,9 +29,7 @@ Bouncer
 |!move | @user (X) | moves user to position X on the waitlist, default is position 1 |
 |!remove | @user | remove user from the waitlist |
 |!roulette | | Starts roulette |
-|!songstats | | toggle song statistics |
 |!unlock | | unlock the waitlist |
-|!welcome | | toggle the welcome message on user join |
 |!active | (X) | shows how many users chatted in the past X minutes. If no X specified, 60 is set as default |
 |!afkreset | @user | resets the afk time of user |
 |!afktime | @user | shows how long user has been afk |
@@ -39,21 +37,16 @@ Bouncer
 |!ban | @user | bans user for 1 day |
 |!blacklist / !bl | blacklistname | add the song to the specified blacklist |
 |!commanddeletion | | toggles if bot commands gets deleted |
-|!blinfo | | get information required to blacklist a song |
 |!cycleguard | | toggles the cycleguard |
 |!dclookup / !dc | (@user) | do dclookup for user |
-|!english | @user | ask user to speak english (asked in the language they set plug to) |
+|!english | @user | ask user to speak english |
 |!eta | (@user) | shows when user will reach the booth |
-|!filter | | toggles the chat filter |
 |!forceskip | | forceskips the current song |
 |!historyskip | | toggles the history skip |
 |!jointime | @user | shows how long the user has been in the room |
 |!kick | (X) | kicks user for X minutes, default is 0.25 minutes (15 seconds) |
 |!lockskip | (reason) | skips, locks and moves the dj back up (the position can be set with !skippos) |
 |!mute | @user (X) | mute user, for X minutes if X is specified, otherwise for an undefined period |
-|!reload | | reload the bot |
-|!restricteta | | toggles the restriction on eta: grey users can use it once an hour |
-|!sessionstats | | display stats for the current session |
 |!skip | (reason) | skips the dj using smartskip. actions such as locking and moving user depends on various factors (the position the dj is moved to can be set with !skippos) |
 |!status | | display the bot's status and some settings |
 |!timeguard | | toggle the timeguard |
@@ -97,3 +90,15 @@ User
 |!thor | | users get moved to position 1 in the waitlist if they're worthy of Thor's hammer. |
 |!website | | links to the website |
 
+
+Skip Rasons
+-----------
+
+|Reason | Description |
+|:-----:|:-----------:|
+|theme | This song does not fit the room theme. |
+|OP | This song is on the OP list. |
+|History | This song is in the history. |
+|Sound | The song you played had bad sound quality or no sound. "],
+|NSFW | The song you contained was NSFW (image or sound). |
+|Unavailable | The song you played was not available for some users. |
