@@ -99,6 +99,6 @@ Skip Rasons
 |theme | This song does not fit the room theme. |
 |OP | This song is on the OP list. |
 |History | This song is in the history. |
-|Sound | The song you played had bad sound quality or no sound. "],
+|Sound | The song you played had bad sound quality or no sound. |
 |NSFW | The song you contained was NSFW (image or sound). |
 |Unavailable | The song you played was not available for some users. |
